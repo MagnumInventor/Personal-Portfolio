@@ -5,38 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Резюме</title>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;500&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
-    
     <link rel="stylesheet" href="main.css">
-    <script src="script.js"></script>
-    
 </head>
 <body>
+    <!-- Spline Animation Frame -->
+    <div class="spline-frame">
+        <iframe src="https://my.spline.design/abstractgradientbackground-5a8fea1ff23d1a8f5e19d12c68fa1a8d/" frameborder="0"></iframe>
+    </div>
+
+    <!-- Header -->
     <header class="header">
-        <div class="container">
-            <button class="menu-toggle">Меню</button>
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li><a href="#about">Про мене</a></li>
-                    <li><a href="#portfolio">Портфоліо</a></li>
-                    <li><a href="#contacts">Контакти</a></li>
-                </ul>
-            </nav>
+        <div class="header-content">
+            <a href="Kortex store/FRONT/HTML/index.html" class="logo">ОМ</a>
+            <div class="burger-menu" id="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="Kortex store/FRONT/HTML/me.html">Про мене</a></li>
+                <li><a href="Kortex store/FRONT/HTML/portfolio.html">Портфоліо</a></li>
+                <li><a href="Kortex store/FRONT/HTML/contacts.html">Контакти</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <section id="about">
-            <h1>Ім'я Прізвище</h1>
-            <p>Професія або посада</p>
-        </section>
-        <section id="portfolio">
-            <h2>Портфоліо</h2>
-            <p>Посилання на мої роботи</p>
-        </section>
-        <section id="contacts">
-            <h2>Контакти</h2>
-            <p>Електронна пошта, номер телефону</p>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="at-center">
+            <p class="name">Маркович Олександр</p>
+        </div>
+        <section class="main-information">
+            <div class="experience">
+                <ul>
+                    <li>
+                        <p>Дизайн</p>
+                        <p>Маркетинг</p>
+                        <p>Веб-розробка</p>
+                    </li>
+                </ul>
+            </div>
+            <img src="my-photo.png" alt="me">
         </section>
     </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div>
+            <h3>Контакти</h3>
+            <p>Mobile: (+380) 96 042 7745</p>
+            <p>Email: markoleks08@gmail.com</p>
+        </div>
+        <div>
+            <h3>Соціальні мережі</h3>
+            <a href="https://www.facebook.com/" target="_blank">Instagram</a> |
+            <a href="https://twitter.com/" target="_blank">Telegram</a> |
+            <a href="https://www.instagram.com/" target="_blank">OLX</a>
+        </div>
+        <div class="copyright">
+            <p>&alpha; 2024 Всі права захищено &alpha;</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>

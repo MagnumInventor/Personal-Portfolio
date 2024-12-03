@@ -1,74 +1,107 @@
-body {
-    font-family: 'Montserrat', sans-serif;
+/* main.css */
+body, html {
     margin: 0;
-    background-color: #fafafa;
-    color: #333;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    overflow: hidden;
+    background-color: #1c1c1c;
+}
+
+.spline-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.spline-frame iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
 }
 
 .header {
-    background-color: #4e2a84;
-    color: white;
-    padding: 15px;
-    position: fixed;
+    position: absolute;
     top: 0;
+    left: 0;
     width: 100%;
-    z-index: 1000;
-}
-
-.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 50px;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
 }
 
-.menu-toggle {
-    background-color: transparent;
-    border: 2px solid white;
-    color: white;
-    padding: 8px 15px;
-    cursor: pointer;
-    font-family: 'Kanit', sans-serif;
-}
-
-.nav {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    background-color: #4e2a84;
-}
-
-.nav-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-.nav-list li {
-    margin: 10px 0;
-}
-
-.nav-list a {
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
     color: white;
     text-decoration: none;
+}
+
+.burger-menu span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 4px 0;
+    background-color: white;
+}
+
+#nav-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+#nav-menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.main-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.at-center {
+    font-size: 2.5rem;
     font-weight: 600;
-    font-family: 'Kanit', sans-serif;
+    color: #e4e4e4;
 }
 
-main {
-    margin-top: 80px;
-    padding: 20px;
+.main-information {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
 }
 
-section {
-    margin-bottom: 40px;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+.main-information img {
+    width: 150px;
+    border-radius: 50%;
 }
 
-h1, h2 {
-    font-family: 'Kanit', sans-serif;
-    color: #4e2a84;
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px 0;
+    z-index: 2;
+}
+
+.footer h3, .footer p, .footer a {
+    color: white;
+    margin: 5px 0;
 }
