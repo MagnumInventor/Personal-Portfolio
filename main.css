@@ -88,21 +88,20 @@ body, html {
     text-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
 }
 
-.name {
-    font-family: "Montserrat";
-    color: #000000;
-        font-size: 100px;
-        font-weight:bolder;
+    .name {
+        font-family: "Montserrat";
+        color: #000000;
+            font-size: 100px;
+            font-weight:bolder;
 
-        text-align: left;
-        margin-left: 80px;
-    text-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
-}
-
-.main-information img {
-    width: 150px;
-    border-radius: 50%;
-}
+            text-align: left;
+            margin-left: 80px;
+        text-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+    }
+    .my-ebalo {
+        width: 600px;
+        height: auto;
+    }
 
 .footer {
     position: absolute;
