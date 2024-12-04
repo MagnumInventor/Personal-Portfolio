@@ -75,7 +75,7 @@ body, html {
 
 .at-center {
     font-size: 2.5rem;
-    font-weight: 600;
+
     color: #e4e4e4;
 }
 
@@ -89,8 +89,13 @@ body, html {
 }
 
 .name {
-    font-family: "Rethink Sans";
-    color: #ffffff;
+    font-family: "Montserrat";
+    color: #000000;
+        font-size: 100px;
+        font-weight:bolder;
+
+        text-align: left;
+        margin-left: 80px;
     text-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
 }
 
@@ -103,7 +108,9 @@ body, html {
     position: absolute;
     bottom: 0;
     width: 100%;
+
     font-weight: 300;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
     text-align: center;
     background: rgba(0, 0, 0, 0.1);
