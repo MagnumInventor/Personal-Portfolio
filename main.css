@@ -101,6 +101,12 @@ body, html {
     .my-ebalo {
         width: 600px;
         height: auto;
+
+        position: relative;
+        align-items: left;
+
+        padding-top: 10px;
+        margin-bottom: 500px;
     }
 
 .footer {
