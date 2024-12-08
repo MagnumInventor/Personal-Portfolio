@@ -75,6 +75,7 @@ body, html {
 
 .at-center {
     color: #e4e4e4;
+    display: flex;
 }
 
 .main-information {
