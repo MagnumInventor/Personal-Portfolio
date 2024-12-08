@@ -108,6 +108,16 @@ body, html {
         background-color: rgba(0, 0, 0, 0.5);
     }
 
+
+.label {
+    justify-content: center;
+}
+.label-p {
+    font-family: "Montserrat";
+    font-size: 60px;
+    font-weight: 500;
+}
+
 .footer {
     position: absolute;
     bottom: 0;
